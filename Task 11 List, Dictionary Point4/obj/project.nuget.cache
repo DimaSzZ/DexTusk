@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3NESTieOgOwvtKFOu3pRLBz1PMO5wz6itva5RnNYMxPiMUsiCGC7NLozMvaoK+xrmzT4MjZYGou3618ewqbf4Q==",
+  "dgSpecHash": "h+ctvjFz3qDYQp/7fBUbJQgogVjNj5+xLlFxQxfIlmUm9umzeKc7Ut3kfxkChZQwvsP3cCbr92N9yZ8L39mutw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 11 List, Dictionary Point4\\Task 11 List, DictionaryY.csproj",
+  "projectFilePath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 11 List, Dictionary Point4\\Task 11 List, DictionaryY.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\komuk\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\komuk\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

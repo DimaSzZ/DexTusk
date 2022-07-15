@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 5 Convert(Revork)\\Task 5 Convetable.csproj": {}
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 5 Convert(Revork)\\Task 5 Convetable.csproj": {}
   },
   "projects": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 5 Convert(Revork)\\Task 5 Convetable.csproj": {
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 5 Convert(Revork)\\Task 5 Convetable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 5 Convert(Revork)\\Task 5 Convetable.csproj",
+        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 5 Convert(Revork)\\Task 5 Convetable.csproj",
         "projectName": "Task 5 Convetable",
-        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 5 Convert(Revork)\\Task 5 Convetable.csproj",
+        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 5 Convert(Revork)\\Task 5 Convetable.csproj",
         "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 5 Convert(Revork)\\obj\\",
+        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 5 Convert(Revork)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj": {}
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj": {
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj",
+        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj",
         "projectName": "Task 11 List, Dictionary",
-        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj",
+        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj",
         "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 11 List, Dictionary (Revork)\\obj\\",
+        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 11 List, Dictionary (Revork)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",

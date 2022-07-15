@@ -6,7 +6,7 @@ internal class Program
         //BankSystem.AddCashAccount(new Client("Чорт"),new Dictionary<Type, double>());
         var fio = new Client("Чорт").Fio;
         if (fio != null)
-            Client.DictionaryCleints?.Add(fio, new Dictionary<Type, double>() {[typeof(Program)] = 2000});
+            Client.DictionaryCleints?.Add(fio.cz, new Dictionary<Type, double>() {[typeof(Program)] = 2000});
         var dictionaryCleint = Client.DictionaryCleints?["Чорт"];
         if (dictionaryCleint == null) return;
         foreach (var d in dictionaryCleint)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj": {}
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj": {}
   },
   "projects": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj": {
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj",
+        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj",
         "projectName": "Task 10 GetHashCode(), Equals()",
-        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj",
+        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj",
         "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 10 GetHashCode(), Equals() (Revork)\\obj\\",
+        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 10 GetHashCode(), Equals() (Revork)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",

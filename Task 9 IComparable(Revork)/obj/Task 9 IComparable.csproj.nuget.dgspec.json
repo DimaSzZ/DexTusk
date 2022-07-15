@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 9 IComparable(Revork)\\Task 9 IComparable.csproj": {}
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 9 IComparable(Revork)\\Task 9 IComparable.csproj": {}
   },
   "projects": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 9 IComparable(Revork)\\Task 9 IComparable.csproj": {
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 9 IComparable(Revork)\\Task 9 IComparable.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 9 IComparable(Revork)\\Task 9 IComparable.csproj",
+        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 9 IComparable(Revork)\\Task 9 IComparable.csproj",
         "projectName": "Task 9 IComparable",
-        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 9 IComparable(Revork)\\Task 9 IComparable.csproj",
+        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 9 IComparable(Revork)\\Task 9 IComparable.csproj",
         "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 9 IComparable(Revork)\\obj\\",
+        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 9 IComparable(Revork)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",

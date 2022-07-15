@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 3 OOP(Revork)\\Task 3 OOP.csproj",
+      "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 3 OOP(Revork)\\Task 3 OOP.csproj",
       "projectName": "Task 3 OOP",
-      "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 3 OOP(Revork)\\Task 3 OOP.csproj",
+      "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 3 OOP(Revork)\\Task 3 OOP.csproj",
       "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 3 OOP(Revork)\\obj\\",
+      "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 3 OOP(Revork)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",

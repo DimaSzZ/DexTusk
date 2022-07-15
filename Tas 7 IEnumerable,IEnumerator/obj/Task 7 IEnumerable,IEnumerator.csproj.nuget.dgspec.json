@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Tas 7 IEnumerable,IEnumerator\\Task 7 IEnumerable,IEnumerator.csproj": {}
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Tas 7 IEnumerable,IEnumerator\\Task 7 IEnumerable,IEnumerator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Tas 7 IEnumerable,IEnumerator\\Task 7 IEnumerable,IEnumerator.csproj": {
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Tas 7 IEnumerable,IEnumerator\\Task 7 IEnumerable,IEnumerator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Tas 7 IEnumerable,IEnumerator\\Task 7 IEnumerable,IEnumerator.csproj",
+        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Tas 7 IEnumerable,IEnumerator\\Task 7 IEnumerable,IEnumerator.csproj",
         "projectName": "Task 7 IEnumerable,IEnumerator",
-        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Tas 7 IEnumerable,IEnumerator\\Task 7 IEnumerable,IEnumerator.csproj",
+        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Tas 7 IEnumerable,IEnumerator\\Task 7 IEnumerable,IEnumerator.csproj",
         "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Tas 7 IEnumerable,IEnumerator\\obj\\",
+        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Tas 7 IEnumerable,IEnumerator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",

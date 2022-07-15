@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 4 Value and Ref(Revork)\\Task 4 Value and Ref.csproj": {}
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 4 Value and Ref(Revork)\\Task 4 Value and Ref.csproj": {}
   },
   "projects": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 4 Value and Ref(Revork)\\Task 4 Value and Ref.csproj": {
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 4 Value and Ref(Revork)\\Task 4 Value and Ref.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 4 Value and Ref(Revork)\\Task 4 Value and Ref.csproj",
+        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 4 Value and Ref(Revork)\\Task 4 Value and Ref.csproj",
         "projectName": "Task 4 Value and Ref",
-        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 4 Value and Ref(Revork)\\Task 4 Value and Ref.csproj",
+        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 4 Value and Ref(Revork)\\Task 4 Value and Ref.csproj",
         "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 4 Value and Ref(Revork)\\obj\\",
+        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 4 Value and Ref(Revork)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",

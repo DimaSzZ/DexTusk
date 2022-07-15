@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qnrp7zWfDpgWOU6Xg9QSE6RW5VbZqlystURSHNLfr6SgufFaBuZRm6Bdi8+Ed5TEjSv0DSb8vDPw/9DCa63d6A==",
+  "dgSpecHash": "G4PWc7sR/ppVFU5YBe6kA6Q6tdwCBWRhg80nfiuayeSs+KMLR+yGsLFPPQ5QJhxSqR+dPYMAD3a9LgSIHYvTMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj",
+  "projectFilePath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 10 GetHashCode(), Equals() (Revork)\\Task 10 GetHashCode(), Equals().csproj",
   "expectedPackageFiles": [
     "C:\\Users\\komuk\\.nuget\\packages\\bogus\\34.0.2\\bogus.34.0.2.nupkg.sha512"
   ],

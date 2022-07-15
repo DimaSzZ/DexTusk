@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 12 Generic Type, Generic Member (Revork)\\Task 12 Generic Type, Generic Member.csproj": {}
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 12 Generic Type, Generic Member (Revork)\\Task 12 Generic Type, Generic Member.csproj": {}
   },
   "projects": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 12 Generic Type, Generic Member (Revork)\\Task 12 Generic Type, Generic Member.csproj": {
+    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 12 Generic Type, Generic Member (Revork)\\Task 12 Generic Type, Generic Member.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 12 Generic Type, Generic Member (Revork)\\Task 12 Generic Type, Generic Member.csproj",
+        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 12 Generic Type, Generic Member (Revork)\\Task 12 Generic Type, Generic Member.csproj",
         "projectName": "Task 12 Generic Type, Generic Member",
-        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 12 Generic Type, Generic Member (Revork)\\Task 12 Generic Type, Generic Member.csproj",
+        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 12 Generic Type, Generic Member (Revork)\\Task 12 Generic Type, Generic Member.csproj",
         "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task 12 Generic Type, Generic Member (Revork)\\obj\\",
+        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 12 Generic Type, Generic Member (Revork)\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",

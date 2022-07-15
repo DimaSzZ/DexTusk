@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task6 BoxingUnboxing\\Task6 BoxingUnboxing.csproj",
+      "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task6 BoxingUnboxing\\Task6 BoxingUnboxing.csproj",
       "projectName": "Task6 BoxingUnboxing",
-      "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task6 BoxingUnboxing\\Task6 BoxingUnboxing.csproj",
+      "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task6 BoxingUnboxing\\Task6 BoxingUnboxing.csproj",
       "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\AllTask\\Task6 BoxingUnboxing\\obj\\",
+      "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task6 BoxingUnboxing\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
