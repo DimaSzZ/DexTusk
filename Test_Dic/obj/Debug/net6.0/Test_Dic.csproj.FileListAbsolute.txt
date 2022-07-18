@@ -1,0 +1,15 @@
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\bin\Debug\net6.0\Test_Dic.exe
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\bin\Debug\net6.0\Test_Dic.deps.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\bin\Debug\net6.0\Test_Dic.runtimeconfig.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\bin\Debug\net6.0\Test_Dic.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\bin\Debug\net6.0\Test_Dic.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\Test_Dic.csproj.AssemblyReference.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\Test_Dic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\Test_Dic.AssemblyInfoInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\Test_Dic.AssemblyInfo.cs
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\Test_Dic.csproj.CoreCompileInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\Test_Dic.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\refint\Test_Dic.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\Test_Dic.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\Test_Dic.genruntimeconfig.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Test_Dic\obj\Debug\net6.0\ref\Test_Dic.dll
