@@ -1,6 +1,4 @@
-﻿using System.Threading.Channels;
-
-namespace Task_13Func
+﻿namespace Task_13Func
 {
     internal class  BankSystem
     {
@@ -10,6 +8,9 @@ namespace Task_13Func
                 ,new InfoValuteAccount(typeof(Grivna), 2700),  new InfoValuteAccount(typeof(Lei), 2700)
             }
         }};
+
+        static List<InfoValuteAccount> MetFunc(double money, Type donorAccauntType, Type recipientAccauntType,
+            string fio, Func<double, Type, Type, string, List<InfoValuteAccount>> deFunc) => deFunc(money, donorAccauntType, recipientAccauntType,fio);
 
         private static double SelectorType(Type t)
         {
@@ -71,7 +72,7 @@ namespace Task_13Func
             return BankSystem.DictionaryCleints[fio];
         }
 
-        public static void TransferMet(Func<double, Type, Type,string, List<InfoValuteAccount>> deFunc)
+        public static void TransferMet()
         {
             string? fio;
             while (true)
@@ -117,7 +118,7 @@ namespace Task_13Func
             var cash = double.Parse(Console.ReadLine() ?? string.Empty);
             if (BankSystem.DictionaryCleints != null)
                 if (fio != null)
-                    BankSystem.DictionaryCleints[fio] = deFunc(cash, typeDonnor, typerecipient, fio);
+                    BankSystem.DictionaryCleints[fio] = MetFunc(cash, typeDonnor, typerecipient, fio,Convertation);
         }
     }
 }
