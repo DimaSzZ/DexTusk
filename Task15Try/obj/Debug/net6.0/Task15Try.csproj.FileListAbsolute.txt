@@ -1,0 +1,15 @@
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\bin\Debug\net6.0\Task15Try.exe
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\bin\Debug\net6.0\Task15Try.deps.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\bin\Debug\net6.0\Task15Try.runtimeconfig.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\bin\Debug\net6.0\Task15Try.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\bin\Debug\net6.0\Task15Try.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\Task15Try.csproj.AssemblyReference.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\Task15Try.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\Task15Try.AssemblyInfoInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\Task15Try.AssemblyInfo.cs
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\Task15Try.csproj.CoreCompileInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\Task15Try.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\refint\Task15Try.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\Task15Try.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\Task15Try.genruntimeconfig.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15Try\obj\Debug\net6.0\ref\Task15Try.dll
