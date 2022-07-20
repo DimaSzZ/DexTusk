@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task_7_GetHashCode____Equals__
+﻿namespace Task_7_GetHashCode____Equals__
 {
     internal class Person
     {
