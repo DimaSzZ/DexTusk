@@ -1,0 +1,15 @@
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\bin\Debug\net6.0\Task15MoneyTransfer.exe
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\bin\Debug\net6.0\Task15MoneyTransfer.deps.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\bin\Debug\net6.0\Task15MoneyTransfer.runtimeconfig.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\bin\Debug\net6.0\Task15MoneyTransfer.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\bin\Debug\net6.0\Task15MoneyTransfer.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\Task15MoneyTransfer.csproj.AssemblyReference.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\Task15MoneyTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\Task15MoneyTransfer.AssemblyInfoInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\Task15MoneyTransfer.AssemblyInfo.cs
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\Task15MoneyTransfer.csproj.CoreCompileInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\Task15MoneyTransfer.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\refint\Task15MoneyTransfer.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\Task15MoneyTransfer.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\Task15MoneyTransfer.genruntimeconfig.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task15MoneyTransfer\obj\Debug\net6.0\ref\Task15MoneyTransfer.dll
