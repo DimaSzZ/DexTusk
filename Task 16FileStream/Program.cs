@@ -7,12 +7,11 @@ internal class Program
     {
         while (true)
         {
-            if (File.Exists(@"C:\ClientsInfo\UsercFullAccounts.dat"))
-            {
-                BankSystem.DictionaryCleints = FileStreamClass.DropDictionaryClients();
-            }
+            BankSystem.DictionaryCleints = FileStreamClass.DropDictionaryClients();
+            Console.WriteLine("Ввдетие фио клиента");
             var fio = Console.ReadLine();
-            Console.WriteLine("Доброго времени суток,1-Пополнить или создать аккаунт,2-Конвертировать деньги с одного валютного счета на другой" +
+            FileStreamClass.AddClientFile(fio!);
+            Console.WriteLine($"Доброго времени суток {fio},1-Пополнить или создать аккаунт,2-Конвертировать деньги с одного валютного счета на другой" +
                               ", 3-Что бы посмотреть информацию о ваших счетах");
             switch (Console.ReadLine())
             {
@@ -23,9 +22,16 @@ internal class Program
                     BankSystem.TransferMet();
                     break;
                 case "3":
-                    foreach (var showResult in BankSystem.DictionaryCleints?[fio!]!)
+                    try
                     {
-                        Console.WriteLine($"{showResult.Type} {showResult.Cash}");
+                        foreach (var showResult in BankSystem.DictionaryCleints?[fio!]!)
+                        {
+                            Console.WriteLine($"{showResult.Type} {showResult.Cash}");
+                        }
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("Такой клиент не найден");
                     }
                     break;
             }

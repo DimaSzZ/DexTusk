@@ -7,11 +7,23 @@ namespace Task_16FileStream
         [Obsolete("Obsolete")]
         public static void AddClientFile(string client)
         {
-            List<string> clients;
+            List<string>? clients = new();
             using var fs = new FileStream(@"C:\ClientsInfo\ClientsFio.dat", FileMode.OpenOrCreate);
-            clients = (List<string>)new BinaryFormatter().Deserialize(fs);
-            clients.Add(client);
-            new BinaryFormatter().Serialize(fs, clients);
+            try
+            {
+                clients = (List<string>)new BinaryFormatter().Deserialize(fs);
+                if (clients!.All(x => x != client))
+                {
+                    clients!.Add(client);
+                }
+                new BinaryFormatter().Serialize(fs, clients);
+            }
+            catch (Exception)
+            {
+                clients.Add(client);
+                new BinaryFormatter().Serialize(fs, clients);
+            }
+            
         }
         [Obsolete("Obsolete")]
         public static void SaveDictionaryClients(Dictionary<string, List<InfoValuteAccount>> allClients)
