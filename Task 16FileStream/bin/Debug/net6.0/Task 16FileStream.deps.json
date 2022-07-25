@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Task 16FileStream/1.0.0": {
+        "runtime": {
+          "Task 16FileStream.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Task 16FileStream/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

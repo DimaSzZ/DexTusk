@@ -1,6 +1,4 @@
-﻿
-using Task15MoneyTransfer;
-
+﻿using Task15MoneyTransfer;
 class Program
 {
     private static void Main()
