@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task15Try", "Task15Try\Task
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task15MoneyTransfer", "Task15MoneyTransfer\Task15MoneyTransfer.csproj", "{0D48DA20-F6D9-4D64-82DB-11E960E8EBAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 16FileStream", "Task 16FileStream\Task 16FileStream.csproj", "{65CBA752-8B5F-4CF6-98B0-2E7554BD01F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 16FileStream", "Task 16FileStream\Task 16FileStream.csproj", "{65CBA752-8B5F-4CF6-98B0-2E7554BD01F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 18 Extensions", "Task 18 Extensions\Task 18 Extensions.csproj", "{CD36C61A-F971-4402-8128-7DF264552795}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{65CBA752-8B5F-4CF6-98B0-2E7554BD01F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65CBA752-8B5F-4CF6-98B0-2E7554BD01F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65CBA752-8B5F-4CF6-98B0-2E7554BD01F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD36C61A-F971-4402-8128-7DF264552795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD36C61A-F971-4402-8128-7DF264552795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD36C61A-F971-4402-8128-7DF264552795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD36C61A-F971-4402-8128-7DF264552795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
