@@ -1,6 +1,6 @@
 ﻿namespace Task_7_GetHashCode____Equals__
 {
-    internal class Person
+    public class Person
     {
         public string? Name { get; set; }
         public string? LastName { get; set; }

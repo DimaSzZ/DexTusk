@@ -2,7 +2,7 @@
 
 namespace Task_7_GetHashCode____Equals__
 {
-    internal class FakePersonRepository
+    public class FakePersonRepository
     {
         private readonly IEnumerable<Person> _persons;
 
