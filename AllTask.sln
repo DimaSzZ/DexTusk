@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task15MoneyTransfer", "Task
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 16FileStream", "Task 16FileStream\Task 16FileStream.csproj", "{65CBA752-8B5F-4CF6-98B0-2E7554BD01F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 18 Extensions", "Task 18 Extensions\Task 18 Extensions.csproj", "{CD36C61A-F971-4402-8128-7DF264552795}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 18 Extensions", "Task 18 Extensions\Task 18 Extensions.csproj", "{CD36C61A-F971-4402-8128-7DF264552795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task19Reflection", "Task19Reflection\Task19Reflection.csproj", "{C0765A1E-0AEC-4C47-939F-AB3A2365394E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task19Reflection", "Task19Reflection\Task19Reflection.csproj", "{C0765A1E-0AEC-4C47-939F-AB3A2365394E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 17Dispose", "Task 17Dispose\Task 17Dispose.csproj", "{0FA48271-E549-405A-973B-F88CE61E94E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{C0765A1E-0AEC-4C47-939F-AB3A2365394E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0765A1E-0AEC-4C47-939F-AB3A2365394E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0765A1E-0AEC-4C47-939F-AB3A2365394E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FA48271-E549-405A-973B-F88CE61E94E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FA48271-E549-405A-973B-F88CE61E94E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FA48271-E549-405A-973B-F88CE61E94E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FA48271-E549-405A-973B-F88CE61E94E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
