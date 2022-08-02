@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task19Reflection", "Task19R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 17Dispose", "Task 17Dispose\Task 17Dispose.csproj", "{0FA48271-E549-405A-973B-F88CE61E94E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task20 Serialization", "Task20 Serialization\Task20 Serialization.csproj", "{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{0FA48271-E549-405A-973B-F88CE61E94E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FA48271-E549-405A-973B-F88CE61E94E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FA48271-E549-405A-973B-F88CE61E94E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

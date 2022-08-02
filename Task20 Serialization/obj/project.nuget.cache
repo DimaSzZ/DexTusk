@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "O9vPLjJULz/CY7zMY04skWSPBPpX3PRCryeyGQdWv7wih49E2soN6yJjrBWLhLhP5YsQ3d6jLg4Ocvkuvor52g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task20 Serialization\\Task20 Serialization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\komuk\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

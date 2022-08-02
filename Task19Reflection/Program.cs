@@ -10,5 +10,6 @@ class Program
         var privateClassObj = new PrivateTestClass();
         var secretMet = typePrClass.GetMethod("SecretMet", BindingFlags.Instance | BindingFlags.NonPublic);
         secretMet?.Invoke(privateClassObj, new[]{ secretName?.GetValue(privateClassObj), secretNum?.GetValue(privateClassObj)});
+
     }
 }
