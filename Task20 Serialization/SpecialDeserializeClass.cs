@@ -26,8 +26,8 @@ namespace Task20_Serialization
                     case XmlSerializer xml:
                         using (var memoryStream = new MemoryStream(Encoding.UTF8.GetBytes(File.ReadAllText(path))))
                         {
-                            XmlDictionaryReader reader = XmlDictionaryReader.CreateTextReader(memoryStream, Encoding.UTF8, new XmlDictionaryReaderQuotas(), null);
-                            DataContractSerializer serializer = new DataContractSerializer(typeof(ListFigure));
+                            var reader = XmlDictionaryReader.CreateTextReader(memoryStream, Encoding.UTF8, new XmlDictionaryReaderQuotas(), null);
+                            var serializer = new DataContractSerializer(typeof(ListFigure));
                             items = serializer.ReadObject(reader) as ListFigure;
                         }
                         break;
