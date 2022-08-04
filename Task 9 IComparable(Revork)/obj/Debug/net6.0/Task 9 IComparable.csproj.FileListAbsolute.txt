@@ -1,0 +1,15 @@
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\bin\Debug\net6.0\Task 9 IComparable.exe
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\bin\Debug\net6.0\Task 9 IComparable.deps.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\bin\Debug\net6.0\Task 9 IComparable.runtimeconfig.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\bin\Debug\net6.0\Task 9 IComparable.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\bin\Debug\net6.0\Task 9 IComparable.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\Task 9 IComparable.csproj.AssemblyReference.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\Task 9 IComparable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\Task 9 IComparable.AssemblyInfoInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\Task 9 IComparable.AssemblyInfo.cs
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\Task 9 IComparable.csproj.CoreCompileInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\Task 9 IComparable.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\refint\Task 9 IComparable.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\Task 9 IComparable.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\Task 9 IComparable.genruntimeconfig.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 9 IComparable(Revork)\obj\Debug\net6.0\ref\Task 9 IComparable.dll

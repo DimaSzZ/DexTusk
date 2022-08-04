@@ -1,0 +1,15 @@
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\bin\Debug\net6.0\Task 5 Convetable.exe
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\bin\Debug\net6.0\Task 5 Convetable.deps.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\bin\Debug\net6.0\Task 5 Convetable.runtimeconfig.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\bin\Debug\net6.0\Task 5 Convetable.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\bin\Debug\net6.0\Task 5 Convetable.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\Task 5 Convetable.csproj.AssemblyReference.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\Task 5 Convetable.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\Task 5 Convetable.AssemblyInfoInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\Task 5 Convetable.AssemblyInfo.cs
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\Task 5 Convetable.csproj.CoreCompileInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\Task 5 Convetable.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\refint\Task 5 Convetable.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\Task 5 Convetable.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\Task 5 Convetable.genruntimeconfig.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 5 Convert(Revork)\obj\Debug\net6.0\ref\Task 5 Convetable.dll

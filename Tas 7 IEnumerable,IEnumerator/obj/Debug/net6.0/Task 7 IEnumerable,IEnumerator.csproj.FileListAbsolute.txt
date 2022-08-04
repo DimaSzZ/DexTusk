@@ -1,0 +1,15 @@
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\bin\Debug\net6.0\Task 7 IEnumerable,IEnumerator.exe
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\bin\Debug\net6.0\Task 7 IEnumerable,IEnumerator.deps.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\bin\Debug\net6.0\Task 7 IEnumerable,IEnumerator.runtimeconfig.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\bin\Debug\net6.0\Task 7 IEnumerable,IEnumerator.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\bin\Debug\net6.0\Task 7 IEnumerable,IEnumerator.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\Task 7 IEnumerable,IEnumerator.csproj.AssemblyReference.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\Task 7 IEnumerable,IEnumerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\Task 7 IEnumerable,IEnumerator.AssemblyInfoInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\Task 7 IEnumerable,IEnumerator.AssemblyInfo.cs
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\Task 7 IEnumerable,IEnumerator.csproj.CoreCompileInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\Task 7 IEnumerable,IEnumerator.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\refint\Task 7 IEnumerable,IEnumerator.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\Task 7 IEnumerable,IEnumerator.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\Task 7 IEnumerable,IEnumerator.genruntimeconfig.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Tas 7 IEnumerable,IEnumerator\obj\Debug\net6.0\ref\Task 7 IEnumerable,IEnumerator.dll

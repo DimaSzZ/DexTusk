@@ -1,0 +1,15 @@
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\bin\Debug\net6.0\Task21Project.exe
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\bin\Debug\net6.0\Task21Project.deps.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\bin\Debug\net6.0\Task21Project.runtimeconfig.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\bin\Debug\net6.0\Task21Project.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\bin\Debug\net6.0\Task21Project.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\Task21Project.csproj.AssemblyReference.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\Task21Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\Task21Project.AssemblyInfoInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\Task21Project.AssemblyInfo.cs
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\Task21Project.csproj.CoreCompileInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\Task21Project.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\refint\Task21Project.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\Task21Project.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\Task21Project.genruntimeconfig.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task21UnitTest\obj\Debug\net6.0\ref\Task21Project.dll
