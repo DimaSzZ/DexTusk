@@ -1,0 +1,15 @@
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\bin\Debug\net6.0\Task 8 Linq.exe
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\bin\Debug\net6.0\Task 8 Linq.deps.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\bin\Debug\net6.0\Task 8 Linq.runtimeconfig.json
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\bin\Debug\net6.0\Task 8 Linq.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\bin\Debug\net6.0\Task 8 Linq.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\Task 8 Linq.csproj.AssemblyReference.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\Task 8 Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\Task 8 Linq.AssemblyInfoInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\Task 8 Linq.AssemblyInfo.cs
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\Task 8 Linq.csproj.CoreCompileInputs.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\Task 8 Linq.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\refint\Task 8 Linq.dll
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\Task 8 Linq.pdb
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\Task 8 Linq.genruntimeconfig.cache
+C:\Users\komuk\source\repos\DexTusk-Revork-\Task 8 Linq(Revork)\obj\Debug\net6.0\ref\Task 8 Linq.dll

@@ -32,7 +32,7 @@ namespace Task_16FileStream
                     break;
                 case "3":
                     var grivAc = BankSystem.DictionaryCleints?[client];
-                    grivAc?.Add(new InfoValuteAccount("Lei", 5600));
+                    grivAc?.Add(new InfoValuteAccount("Grivna", 5600));
                     if (BankSystem.DictionaryCleints != null)
                         BankSystem.DictionaryCleints[client] = grivAc!;
                     FileStreamClass.SaveDictionaryClients(BankSystem.DictionaryCleints!);
