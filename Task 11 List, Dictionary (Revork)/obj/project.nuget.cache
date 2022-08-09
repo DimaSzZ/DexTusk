@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dW1Z5EhozFa8MKXkVY9tUYJguw0NyoU9IHGfmppQ2c6bC5c1F74b2FD2WhECtPI/HW6geL4hRZdGox7HA9x3Fg==",
+  "dgSpecHash": "1oFL1fLqqNftGnMZKs5vFb6yjlYOykvb5+NCo1BFqY0JuXOu2op6cplC19Ec7J8sFhuZOb6PB5vjzx4xM/rFjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj",
+  "projectFilePath": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task 11 List, Dictionary (Revork)\\Task 11 List, Dictionary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\komuk\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\komuk\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\komuk\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
-    "C:\\Users\\komuk\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\victo\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

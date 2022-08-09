@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\komuk\\.nuget\\packages\\": {}
+    "C:\\Users\\victo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 17Dispose\\Task 17Dispose.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task 17Dispose\\Task 17Dispose.csproj",
       "projectName": "Task 17Dispose",
-      "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 17Dispose\\Task 17Dispose.csproj",
-      "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task 17Dispose\\obj\\",
+      "projectPath": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task 17Dispose\\Task 17Dispose.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task 17Dispose\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

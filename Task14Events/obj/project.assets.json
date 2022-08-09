@@ -40,19 +40,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\komuk\\.nuget\\packages\\": {}
+    "C:\\Users\\victo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task14Events\\Task14Events.csproj",
+      "projectUniqueName": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task14Events\\Task14Events.csproj",
       "projectName": "Task14Events",
-      "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task14Events\\Task14Events.csproj",
-      "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task14Events\\obj\\",
+      "projectPath": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task14Events\\Task14Events.csproj",
+      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task14Events\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -98,7 +98,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

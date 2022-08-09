@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task13Delegate\\Task13Delegate.csproj": {}
+    "C:\\Users\\victo\\source\\repos\\DexTusk\\Task13Delegate\\Task13Delegate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task13Delegate\\Task13Delegate.csproj": {
+    "C:\\Users\\victo\\source\\repos\\DexTusk\\Task13Delegate\\Task13Delegate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task13Delegate\\Task13Delegate.csproj",
+        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task13Delegate\\Task13Delegate.csproj",
         "projectName": "Task13Delegate",
-        "projectPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task13Delegate\\Task13Delegate.csproj",
-        "packagesPath": "C:\\Users\\komuk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\komuk\\source\\repos\\DexTusk-Revork-\\Task13Delegate\\obj\\",
+        "projectPath": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task13Delegate\\Task13Delegate.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\victo\\source\\repos\\DexTusk\\Task13Delegate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\komuk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
