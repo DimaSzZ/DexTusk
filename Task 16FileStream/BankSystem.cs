@@ -2,17 +2,17 @@
 
 namespace Task_16FileStream
 {
-    internal class BankSystem
+    public class BankSystem
     {
         public static Dictionary<string, List<InfoValuteAccount>>? DictionaryCleints = new();
             [Obsolete("Obsolete")]
         public static void AddCashAccount(string? client, List<InfoValuteAccount>? listAccount)
         {
             if (client == null) return;
-            var keyExists = BankSystem.DictionaryCleints != null && BankSystem.DictionaryCleints.ContainsKey(client);
+            var keyExists = DictionaryCleints != null && DictionaryCleints.ContainsKey(client);
             if (!keyExists)
             {
-                if (listAccount != null) BankSystem.DictionaryCleints?.Add(client, listAccount);
+                if (listAccount != null) DictionaryCleints?.Add(client, listAccount);
                 
                 Console.WriteLine("Такого клиента не было в базе данных, поэтому он был создан");
             }
@@ -20,22 +20,22 @@ namespace Task_16FileStream
             switch (Console.ReadLine())
             {
                 case "1":
-                    BankSystem.DictionaryCleints?[client]?.Add(new InfoValuteAccount("Rub", 1700));
-                    FileStreamClass.SaveDictionaryClients(BankSystem.DictionaryCleints!);
+                    DictionaryCleints?[client]?.Add(new InfoValuteAccount("Rub", 1700));
+                    FileStreamClass.SaveDictionaryClients(DictionaryCleints!);
                     break;
                 case "2":
-                    var leiAc = BankSystem.DictionaryCleints?[client];
+                    var leiAc = DictionaryCleints?[client];
                     leiAc?.Add(new InfoValuteAccount("Lei", 3700));
-                    if (BankSystem.DictionaryCleints != null)
-                        BankSystem.DictionaryCleints[client] = leiAc!;
-                    FileStreamClass.SaveDictionaryClients(BankSystem.DictionaryCleints!);
+                    if (DictionaryCleints != null)
+                        DictionaryCleints[client] = leiAc!;
+                    FileStreamClass.SaveDictionaryClients(DictionaryCleints!);
                     break;
                 case "3":
-                    var grivAc = BankSystem.DictionaryCleints?[client];
+                    var grivAc = DictionaryCleints?[client];
                     grivAc?.Add(new InfoValuteAccount("Lei", 5600));
-                    if (BankSystem.DictionaryCleints != null)
-                        BankSystem.DictionaryCleints[client] = grivAc!;
-                    FileStreamClass.SaveDictionaryClients(BankSystem.DictionaryCleints!);
+                    if (DictionaryCleints != null)
+                        DictionaryCleints[client] = grivAc!;
+                    FileStreamClass.SaveDictionaryClients(DictionaryCleints!);
                     break;
             }
         }
@@ -58,14 +58,14 @@ namespace Task_16FileStream
             var donnorAccaunt = DictionaryCleints![fio].First(x => x.Type == donorAccauntType);
             donnorAccaunt.Cash -= money;
             var recipientAccaunt = DictionaryCleints[fio].First(x => x.Type == recipientAccauntType);
-            recipientAccaunt.Cash += money / BankSystem.SelectorType(donorAccauntType) *
-                                         BankSystem.SelectorType(recipientAccauntType);
-            foreach (var accounts in BankSystem.DictionaryCleints[fio])
+            recipientAccaunt.Cash += money / SelectorType(donorAccauntType) *
+                                         SelectorType(recipientAccauntType);
+            foreach (var accounts in DictionaryCleints[fio])
             {
                 if (accounts.Type == donnorAccaunt.Type) { accounts.Cash = donnorAccaunt.Cash; };
                 if (accounts.Type == recipientAccaunt.Type) { accounts.Cash = recipientAccaunt.Cash; };
             }
-            return BankSystem.DictionaryCleints[fio];
+            return DictionaryCleints[fio];
         }
 
         public static void TransferMet()
@@ -75,8 +75,8 @@ namespace Task_16FileStream
             {
                 Console.WriteLine("Введите имя пользователя");
                 fio = Console.ReadLine();
-                var checker = fio != null && BankSystem.DictionaryCleints != null &&
-                              BankSystem.DictionaryCleints.ContainsKey(fio);
+                var checker = fio != null && DictionaryCleints != null &&
+                              DictionaryCleints.ContainsKey(fio);
                 if (checker)
                 {
                     Console.WriteLine("Авторизация прошла успешно.Внизу предоставлены ваши счета");
@@ -118,9 +118,9 @@ namespace Task_16FileStream
                 {
                     Console.WriteLine("Введите количество денег");
                     var cash = double.Parse(Console.ReadLine() ?? string.Empty);
-                    if (BankSystem.DictionaryCleints != null)
+                    if (DictionaryCleints != null)
                         if (fio != null)
-                            BankSystem.DictionaryCleints[fio] =
+                            DictionaryCleints[fio] =
                                 MetFunc(cash, typeDonnor, typerecipient, fio, Convertation);
                     break;
                 }

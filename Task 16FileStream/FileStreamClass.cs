@@ -2,7 +2,7 @@
 
 namespace Task_16FileStream
 {
-    internal class FileStreamClass
+    public class FileStreamClass
     {
         [Obsolete("Obsolete")]
         public static void AddClientFile(string client)

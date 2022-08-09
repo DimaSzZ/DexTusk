@@ -4,7 +4,7 @@ using Task_16FileStream.Extention;
 namespace Task_16FileStream
 {
     [Serializable]
-    internal class InfoValuteAccount
+    public class InfoValuteAccount
     {
         public InfoValuteAccount(string strinType, double cash)
         {
