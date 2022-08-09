@@ -43,9 +43,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 18 Extensions", "Task 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task19Reflection", "Task19Reflection\Task19Reflection.csproj", "{C0765A1E-0AEC-4C47-939F-AB3A2365394E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task 17Dispose", "Task 17Dispose\Task 17Dispose.csproj", "{0FA48271-E549-405A-973B-F88CE61E94E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task 17Dispose", "Task 17Dispose\Task 17Dispose.csproj", "{0FA48271-E549-405A-973B-F88CE61E94E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task20 Serialization", "Task20 Serialization\Task20 Serialization.csproj", "{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task20 Serialization", "Task20 Serialization\Task20 Serialization.csproj", "{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitForTask16", "UnitForTask16\UnitForTask16.csproj", "{FA908A57-1E87-4782-9F5B-F44324FB4822}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task22Test", "Task22Test\Task22Test.csproj", "{8E5CADF8-169A-4616-98E3-D6FCF979951B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task21Cacl", "Task21Cacl\Task21Cacl.csproj", "{FED74DC9-4F04-4F19-8EEF-1FA57B71AD07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +147,18 @@ Global
 		{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D5E2796-F31A-4E55-8EA4-B03D27E568A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA908A57-1E87-4782-9F5B-F44324FB4822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA908A57-1E87-4782-9F5B-F44324FB4822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA908A57-1E87-4782-9F5B-F44324FB4822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA908A57-1E87-4782-9F5B-F44324FB4822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5CADF8-169A-4616-98E3-D6FCF979951B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5CADF8-169A-4616-98E3-D6FCF979951B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5CADF8-169A-4616-98E3-D6FCF979951B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5CADF8-169A-4616-98E3-D6FCF979951B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED74DC9-4F04-4F19-8EEF-1FA57B71AD07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED74DC9-4F04-4F19-8EEF-1FA57B71AD07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED74DC9-4F04-4F19-8EEF-1FA57B71AD07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED74DC9-4F04-4F19-8EEF-1FA57B71AD07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
