@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using Task_16FileStream.Extention;
+﻿using Task_16FileStream.Extention;
 
 namespace Task_16FileStream
 {

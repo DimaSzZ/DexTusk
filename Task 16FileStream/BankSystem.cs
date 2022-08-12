@@ -32,7 +32,7 @@ namespace Task_16FileStream
                     break;
                 case "3":
                     var grivAc = DictionaryCleints?[client];
-                    grivAc?.Add(new InfoValuteAccount("Lei", 5600));
+                    grivAc?.Add(new InfoValuteAccount("Grivna", 5600));
                     if (DictionaryCleints != null)
                         DictionaryCleints[client] = grivAc!;
                     FileStreamClass.SaveDictionaryClients(DictionaryCleints!);
@@ -68,6 +68,7 @@ namespace Task_16FileStream
             return DictionaryCleints[fio];
         }
 
+        [Obsolete("Obsolete")]
         public static void TransferMet()
         {
             string? fio;
@@ -122,6 +123,7 @@ namespace Task_16FileStream
                         if (fio != null)
                             DictionaryCleints[fio] =
                                 MetFunc(cash, typeDonnor, typerecipient, fio, Convertation);
+                    FileStreamClass.SaveDictionaryClients(DictionaryCleints);
                     break;
                 }
                 catch (ExeptionNegativeBalance ex)

@@ -17,8 +17,8 @@ public class TeamService
 
         using (var client = new HttpClient())
         {
-            client.DefaultRequestHeaders.Authorization =
-                AuthenticationHeaderValue.Parse(_token);
+            client.DefaultRequestHeaders.Authorization 
+                = new AuthenticationHeaderValue("Bearer", _token);
 
 
             HttpResponseMessage responseMessage =
@@ -31,9 +31,9 @@ public class TeamService
 
         return teams;
     }
-
     public class TeamResponse
     {
+        [JsonProperty("data")]
         public IEnumerable<Team> Teams { get; set; }
         public int Count { get; set; }
         public int Page { get; set; }
@@ -49,7 +49,6 @@ public class TeamService
         public string Conference { get; set; }
         public string ImageUrl { get; set; }
     }
-
     public async Task Add(Team team)
     {
         string serialisedTeam = JsonConvert.SerializeObject(team);
@@ -58,7 +57,7 @@ public class TeamService
         using (var client = new HttpClient())
         {
             client.DefaultRequestHeaders.Authorization =
-                AuthenticationHeaderValue.Parse(_token);
+                new AuthenticationHeaderValue("Bearer", _token);
 
             await client.PostAsync("http://dev.trainee.dex-it.ru/api/Team/Add", content);
         }
@@ -69,22 +68,29 @@ class MyClass
 {
     static void Main()
     {
-        var service = new TeamService("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoi0JHQvtCz0LTQsNC9IiwidGVuYW50IjoiNzI5IiwibmJmIjoxNjU5OTg0MTA4LCJleHAiOjE2NjAwNzA1MDgsImlzcyI6IlRlc3QtQmFja2VuZC0xIiwiYXVkIjoiQmFza2V0QmFsbENsdWJTYW1wbGUifQ.kd1qN6_KerdLklWoR8Cmu-ep6dlQkKakHk6TpjqvYME");
+        var service = new TeamService("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoi0JHQvtCz0LTQsNC9IiwidGVuYW50IjoiNzI5IiwibmJmIjoxNjYwMTY1NTIyLCJleHAiOjE2NjAyNTE5MjIsImlzcyI6IlRlc3QtQmFja2VuZC0xIiwiYXVkIjoiQmFza2V0QmFsbENsdWJTYW1wbGUifQ.GmTuwRbHjHYznLLci2AeRMLrlOfQwkK5fJ6ZgHP-rS8");
         var myCustomTeam = new TeamService.Team
         {
-            Id = 1,
-            Name = "Спартак",
-            FoudationYer = new DateTime(1922, 4, 18),
-            Division = "A",
-            Conference = "Yes",
-            ImageUrl = "Stich"
+            Name = "Спарчсчясчяс",
+            FoudationYer = new DateTime(1955, 4, 18),
+            Division = "Aцуццуйцуйц",
+            Conference = "Yesйцууйц  ",
+            ImageUrl = "Stichцйуцу"
         };
-        service.Add(myCustomTeam);
+        metAs(myCustomTeam,service);
         var zxc = service.GetTeams();
         var collection = zxc.Result.Teams;
         foreach (var mss in collection)
         {
-            Console.WriteLine($"{mss.Id} {mss.Name} {mss.FoudationYer} ");
+            Console.WriteLine($"{mss.Id} {mss.Name} {mss.FoudationYer} {mss.Conference} {mss.ImageUrl} ");
         }
+        Console.WriteLine();
+        Console.WriteLine(zxc.Result.Count);
+        
+    }
+
+    static async void metAs(TeamService.Team tst, TeamService ts)
+    {
+        await ts.Add(tst);
     }
 }

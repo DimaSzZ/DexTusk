@@ -8,7 +8,7 @@ namespace Task_16FileStream
         public static void AddClientFile(string client)
         {
             List<string>? clients = new();
-            using var fs = new FileStream(@"C:\ClientsInfo\ClientsFio.dat", FileMode.OpenOrCreate);
+            using var fs = new FileStream("ClientsFio.dat", FileMode.OpenOrCreate);
             try
             {
                 clients = (List<string>)new BinaryFormatter().Deserialize(fs);
@@ -26,17 +26,26 @@ namespace Task_16FileStream
             
         }
         [Obsolete("Obsolete")]
-        public static void SaveDictionaryClients(Dictionary<string, List<InfoValuteAccount>> allClients)
+        public static void SaveDictionaryClients(Dictionary<string, List<InfoValuteAccount>>? allClients)
         {
-            using var fs = new FileStream(@"C:\ClientsInfo\ClientsFullAccounts.dat", FileMode.OpenOrCreate);
+            using var fs = new FileStream("ClientsFullAccounts.dat", FileMode.OpenOrCreate);
             new BinaryFormatter().Serialize(fs, allClients);
         }
         [Obsolete("Obsolete")]
-        public static Dictionary<string,List<InfoValuteAccount>> DropDictionaryClients()
+        public static Dictionary<string, List<InfoValuteAccount>>? DropDictionaryClients()
         {
-            using var fs = new FileStream(@"C:\ClientsInfo\ClientsFullAccounts.dat", FileMode.OpenOrCreate);
-            var allClients = (Dictionary<string, List<InfoValuteAccount>>)new BinaryFormatter().Deserialize(fs);
-            return allClients;
+            using (new FileStream("ClientsFullAccounts.dat", FileMode.OpenOrCreate)) ;
+            if (File.ReadAllText("ClientsFullAccounts.dat").Length == 0)
+            {
+                Console.WriteLine("Вы первый клиент");
+                return null;
+            }
+            else
+            {
+                using var fs = new FileStream("ClientsFullAccounts.dat", FileMode.OpenOrCreate);
+                var allClients = (Dictionary<string, List<InfoValuteAccount>>)new BinaryFormatter().Deserialize(fs);
+                return allClients;
+            }
         }
     }
 }

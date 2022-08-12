@@ -1,6 +1,6 @@
 ﻿namespace Task_16FileStream
 {
-    internal class Client
+    public class Client
     {
         public string? Fio { get; set; }
 
