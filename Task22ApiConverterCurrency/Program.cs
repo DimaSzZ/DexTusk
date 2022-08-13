@@ -32,10 +32,15 @@ class MyClass
         var request = new RestRequest(infoUrl);
         request.AddHeader("apikey", "Q6Sk5SSVyB199WioBZu4VTRZEer1siUF");
 
-        var response = client.Execute(request);
-        Console.WriteLine(response.Content);
-        var requestGetData = JsonConvert.DeserializeObject<ClassDesJson>(response.Content!);
+        var response = Post(client,request);
+        Console.WriteLine(response.Result.Content);
+        var requestGetData = JsonConvert.DeserializeObject<ClassDesJson>(response.Result.Content!);
         Console.WriteLine(requestGetData.result);
+    }
 
+    public static async Task<RestResponse> Post(RestClient client,RestRequest request)
+    {
+        var response = await client.ExecuteAsync(request);
+        return response;
     }
 }
