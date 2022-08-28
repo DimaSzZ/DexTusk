@@ -57,6 +57,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taks22DexSwaggerApi", "Taks
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taks23Regular expression", "Taks21Regular expression\Taks23Regular expression.csproj", "{0619A871-2DCA-4244-A5BE-23E0FAA628B3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task24(2)", "Task24,25,26(1)\Task24(2).csproj", "{EB2087DF-8FB4-4482-A216-FC29648C7F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task24(1)", "Task24(1)\Task24(1).csproj", "{8428A307-179B-4AF1-BBA0-699C9BD778D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{0619A871-2DCA-4244-A5BE-23E0FAA628B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0619A871-2DCA-4244-A5BE-23E0FAA628B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0619A871-2DCA-4244-A5BE-23E0FAA628B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB2087DF-8FB4-4482-A216-FC29648C7F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2087DF-8FB4-4482-A216-FC29648C7F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2087DF-8FB4-4482-A216-FC29648C7F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2087DF-8FB4-4482-A216-FC29648C7F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8428A307-179B-4AF1-BBA0-699C9BD778D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8428A307-179B-4AF1-BBA0-699C9BD778D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8428A307-179B-4AF1-BBA0-699C9BD778D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8428A307-179B-4AF1-BBA0-699C9BD778D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
