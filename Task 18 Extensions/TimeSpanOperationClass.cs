@@ -2,9 +2,9 @@
 {
     public static class TimeSpanOperationClass
     {
-        public static TimeSpan HourNow(this int time, DateTime ts)
+        public static DateTime HourNow(this int time, DateTime ts)
         {
-            return ts-ts.Date ;
+            return ts.AddHours(-(time)) ;
         }
     }
 }

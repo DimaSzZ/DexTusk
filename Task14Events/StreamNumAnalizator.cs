@@ -1,9 +1,9 @@
 ﻿namespace Task14Events
 {
-    internal class PotocNumAnalizator
+    internal class StreamNumAnalizator
     {
-        private delegate void PotocHendler(int chis);
-        private static event PotocHendler? Notify = CheckPercent;
+        private delegate void StreamHendler(int chis);
+        private static event StreamHendler? Notify = CheckPercent;
         public static int Percentchis { get; set; }
 
         public static void CheckPercent(int chis)
@@ -19,7 +19,7 @@
             get => _num;
             set
             {
-                PotocNumAnalizator.Notify?.Invoke(value);
+                StreamNumAnalizator.Notify?.Invoke(value);
                 _num = value;
             }
         }

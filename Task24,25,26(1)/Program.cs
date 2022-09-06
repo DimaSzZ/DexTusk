@@ -15,10 +15,17 @@ class Program
             case "2":
                 JobExecutor executor = new JobExecutor();
 
-                Task.Run(() =>
+                CancellationTokenSource cancelTokenSource = new CancellationTokenSource();
+                CancellationToken token = cancelTokenSource.Token;
+                var task = new Task(() =>
                 {
                     for (int i = 0; i < 100; i++)
                     {
+                        if (token.IsCancellationRequested)  
+                        {
+                            Console.WriteLine("Операция прервана");
+                            return; 
+                        }
                         executor.Add(() =>
                         {
                             Thread.Sleep(1000);
@@ -27,21 +34,27 @@ class Program
                     }
 
                     executor.Start(2);
-                });
-
-                Task.Run(() =>
+                },token);
+                task.Start();
+                var task2 = new Task(() =>
                 {
                     for (int i = 0; i < 100; i++)
                     {
+                        if (token.IsCancellationRequested)
+                        {
+                            Console.WriteLine("Операция прервана");
+                            return;   
+                        }
                         executor.Add(() =>
                         {
                             Thread.Sleep(1000);
                             Console.WriteLine("Поток # 2");
                         });
                     }
-                    executor.Start(100);
-                });
-                executor.Stop();
+                    executor.Start(5);
+                },token);
+                task2.Start();
+                executor.Stop(cancelTokenSource);
                 Console.ReadKey();
                 break;
             default:

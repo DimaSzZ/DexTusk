@@ -8,11 +8,11 @@ class Program
         {
             var persona = new Client(Console.ReadLine()!, int.Parse(Console.ReadLine()!));
         }
-        catch (PersonExceptionMoreAge exMore)
+        catch (MoreAgePersonException exMore)
         {
             Console.WriteLine($"{exMore.Message} {exMore.Value}");
         }
-        catch (PersonExceptionLessAge exLess)
+        catch (LessAgePersonException exLess)
         {
             Console.WriteLine($"{exLess.Message}. Возраст: {exLess.Value} не допустим");
         }

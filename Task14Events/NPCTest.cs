@@ -1,10 +1,9 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using Task14Events.Annotations;
 
 namespace Task14Events
 {
-    internal class ClassINotifyPropertyChanged: INotifyPropertyChanged
+    internal class NPCTest: INotifyPropertyChanged
     {
         private string? _namecar;
         private string? _colorcar;
@@ -29,11 +28,11 @@ namespace Task14Events
 
         public event PropertyChangedEventHandler? PropertyChanged;
 
-        [NotifyPropertyChangedInvocator]
         protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-            Console.WriteLine("Свойство изменилось");
+            if(_colorcar != null)
+            Console.WriteLine($"Цвет машины {ColorCar}");
         }
     }
 }

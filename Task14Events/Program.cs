@@ -4,40 +4,38 @@ class Program
     
     private static void Main()
     {
-        var programobject = new Program();
-        programobject.Notify += programobject.CheckNumObject;
-        programobject.Notify += programobject.CheckEmptyObject;
+        var classTest = new ClassTest();
+        classTest.Event += scanList_Event;
         var fakePersonRepository = new FakePersonRepository();
-        var persons = fakePersonRepository.GetAll().ToList();
-        foreach (var personObject in persons)
+        var temporaryСollection = fakePersonRepository.GetAll().ToList();
+        foreach (var personObject in temporaryСollection)
         {
-            Console.WriteLine($"{personObject.Name} {personObject.LastName} {personObject.Birth}");
+            classTest.Add(personObject);
         }
-        programobject.Notify(persons);
         Console.WriteLine("Добавим 1 объект для демонстрации события");
-        persons.Add(new Persona() { Name = "Имя", LastName = "Фамилия", Birth = new DateTime(2015, 7, 20) });
-        programobject.Notify(persons);
-        persons.Clear();
-        programobject.Notify(persons);
+        classTest.Add(new Person() { Name = "Имя", LastName = "Фамилия", Birth = new DateTime(2015, 7, 20) });
+        classTest.Clear();
         Console.WriteLine("А теперь введите число для сравнения");
-        PotocNumAnalizator.Percentchis = int.Parse(Console.ReadLine()!);
+        StreamNumAnalizator.Percentchis = int.Parse(Console.ReadLine()!);
         for (int i = 0; i < 5; i++)
         {
-            Console.WriteLine(new PotocNumAnalizator() { Num = new Random().Next(5, 10) }.Num);
+            Console.WriteLine(new StreamNumAnalizator() { Num = new Random().Next(5, 10) }.Num);
         }
-        var NotiTest = new ClassINotifyPropertyChanged(){NameCar = "Девятка", ColorCar = "Желтый"};
+        var notiTest = new NPCTest(){NameCar = "Девятка", ColorCar = "Желтый"};
+        notiTest.ColorCar = "Пурпурный";
     }
-    private delegate void PersonaHendler(List<Persona> persona);
-    private event PersonaHendler? Notify;
-
-    private void CheckNumObject(List<Persona> persona)
+    static void scanList_Event(object sender, ScanListEventArgs e)
     {
-        if (persona.Count() > 10)
-            Console.WriteLine("Объектов больше 10");
-    }
-    private void CheckEmptyObject(List<Persona> persona)
-    {
-        if (!persona.Any())
-            Console.WriteLine("Коллекция пуста");
+        var listPersons = sender as List<Person>;
+        switch (e.Message)
+        {
+            case "Add":
+                if(listPersons?.Count > 10)
+                Console.WriteLine("Больше 10");
+                break;
+            case "Clear":
+                Console.WriteLine("коллекция пуста");
+                break;
+        }
     }
 }

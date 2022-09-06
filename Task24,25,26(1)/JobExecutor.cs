@@ -35,10 +35,13 @@ namespace Task24_25_26_1_
             }
 
         }
-        public void Stop()
+        public void Stop(CancellationTokenSource ct)
         {
-            Thread.Sleep(4000);
-            Process.GetCurrentProcess().Kill();
+            Thread.Sleep(1000);
+            ct.Cancel();
+            Thread.Sleep(1000);
+            ct.Dispose();
+            Console.WriteLine("Поток остановлен, но проект не схлопнулся");
         }
 
         public void Add(Action action)

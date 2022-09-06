@@ -20,7 +20,7 @@
                 if (_cash < 0)
                 {
                     _cash = oldCash;
-                    throw new ExeptionNegativeBalance("Вы ввели сумму, которой нет на вашем аккаунте. Введите сумму сново", value);
+                    throw new NegativeBalanceException("Вы ввели сумму, которой нет на вашем аккаунте. Введите сумму сново", value);
                 }
             }
         }

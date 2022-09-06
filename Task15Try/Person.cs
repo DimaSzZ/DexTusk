@@ -12,10 +12,10 @@
             set
             {
                 if (value < 18)
-                    throw new PersonExceptionLessAge("Лицам до 18 регистрация запрещена", value);
+                    throw new LessAgePersonException("Лицам до 18 регистрация запрещена", value);
                 else if (value > 140)
                 {
-                    throw new PersonExceptionMoreAge("Вы первый, кто столько прожил",value);
+                    throw new MoreAgePersonException("Вы первый, кто столько прожил",value);
                 }
                 else
                     _age = value;

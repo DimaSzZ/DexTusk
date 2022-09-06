@@ -3,8 +3,9 @@ class Program
 {
     static void Main()
     {
-        var subtractTheHours = 5;
-        var getInlyTime = subtractTheHours.HourNow(DateTime.Now);
-        Console.WriteLine($"{getInlyTime.Hours}:{getInlyTime.Minutes}:{getInlyTime.Seconds}");
+        Console.WriteLine("Введите количество часов, которые вы хотите отнять от настоящего времени");
+        int hours = 5;
+        var totalHours = hours.HourNow(DateTime.Now);
+        Console.WriteLine($"{totalHours.Hour}:{totalHours.Minute}:{totalHours.Second}");
     }
 }

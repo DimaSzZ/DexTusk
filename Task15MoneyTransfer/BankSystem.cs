@@ -96,7 +96,7 @@
                                 MetFunc(cash, typeDonnor, typerecipient, fio, Convertation);
                     break;
                 }
-                catch (ExeptionNegativeBalance ex)
+                catch (NegativeBalanceException ex)
                 {
                     Console.WriteLine($"{ex.Message} {ex.Cash}");
                 }
